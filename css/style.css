@@ -20,7 +20,8 @@ body {
 }
 
 .proposal_card {
-    padding: 10px 40px;
+    width: 480px;
+    padding: 10px 30px;
     box-shadow: 0 0 40px #68a7da;
     background-color: rgba(29, 191, 202, 0.3);
     text-align: center;
