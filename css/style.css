@@ -1,0 +1,39 @@
+body {
+    font-family: 'Veneer Regular';
+}
+
+@font-face {
+    font-family: 'Veneer Regular';
+    src: url('../fonts/Veneer.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.proposal {
+    background-image: url(../img/beach.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposal_card {
+    padding: 10px 40px;
+    box-shadow: 0 0 40px #68a7da;
+    background-color: rgba(29, 191, 202, 0.3);
+    text-align: center;
+}
+
+.header {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.countdown {
+    color: #ffffff;
+    font-size: 90px;
+    margin-top: 5px;
+}
+
