@@ -35,7 +35,7 @@ function setClock(id, endpoint) {
         minutes.textContent = updatedTime.minutes;
         seconds.textContent = updatedTime.seconds;
 
-        if (remained.total <= 0) {
+        if (updatedTime.total <= 0) {
             clearInterval(timeInterval);
         }
     }
