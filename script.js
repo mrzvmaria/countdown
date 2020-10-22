@@ -1,5 +1,5 @@
 //1) setting the end point of the timer:
-let deadline = '2018-10-24';
+let deadline = '2021-10-24';
 
 //2) founding out how much time is remained to the end point of the timer:
 function getTimeRemaining(endpoint) {
